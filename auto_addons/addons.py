@@ -8,9 +8,9 @@ import subprocess
 import sys
 import urlparse
 
-EXTRA_ADDONS_PATH = '/opt/odoo/additional_addons/'
-ODOO_ADDONS_PATH = '/opt/odoo/sources/odoo/addons'
-ODOO_CONF = '/opt/odoo/etc/odoo.conf'
+EXTRA_ADDONS_PATH = '/mnt/extra-addons'
+# ODOO_ADDONS_PATH = '/opt/odoo/sources/odoo/addons'
+# ODOO_CONF = '/opt/odoo/etc/odoo.conf'
 DEFAULT_SCHEME = 'https'
 DEFAULT_GIT_HOSTING_SERVICE = 'github.com'
 DEFAULT_ORGANIZATION = 'OCA'
